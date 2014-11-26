@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MY Book</title>
+		<link rel="stylesheet" type="text/css" href="css/mybook.css">
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<div class="logo"><a>My Book</a></div>
+				<ul class="loginBar">
+					<li><input type="text" id="userName" placeHolder="User name" maxLength="8"><sup>*</sup></li>
+					<li><input type="password" id="Password" placeHolder="password"><sup>*</sup></li>
+					<li><button onclick="logIn()">Sign in</button></li>
+					<div class="inValidMsg" id="inValidMsg"></div>
+				</ul>
+			</header>
+			<div class="coverImg"><img src="images/books.jpg"></img></div>
+			<footer>Talent Improving exercise, OFS</footer>
+		</div>
+	</body>
+	<script src="js/myBook.js"></script>
+</html>
